@@ -23,7 +23,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Exporting the DataFrame to a CSV file
-file_path = '/Users/arsh/Downloads/overdose_deaths_by_county.csv'
+file_path = '/Users/arsh/Documents/vscode/DrugOverdose/overdose_deaths_by_county.csv'
 df.to_csv(file_path, index=False)
 
 file_path
